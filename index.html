@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> <!-- para los iconos de bootstrap -->
+
+  <!-- para obtener el font del tipo de letra outfit de google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css"> 
+
+  <title>Tienda Online</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-4 navheader"  >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/violeta.png" alt="Logo de la marca" width="50%">
+        </a>
+        <!-- Hamburguesa para mobile -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <!-- parte derecha con los iconos -->
+          <div class="ms-auto d-flex gap-4 align-items-center">
+            <a href="#" class="text-dark">
+              <i class="bi bi-search"></i>
+            </a>
+            <a href="#" class="text-dark">
+              <i class="bi bi-person-circle"></i>
+            </a>
+            <a href="#" class="text-dark">
+              <i class="bi bi-bag"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body>  
+    <main>
+      <br>
+      <nav>
+        <ul>
+          <li>Productos</li>
+            <ul>
+              <li><a href="./pages/listaproductos.html">Todos</a></li>
+              <li>Nueva Coleccion</li>
+              <li>Remeras</li>
+              <li>Pantalones</li>
+              <li>Buzos</li>
+              <li>Camperas</li>
+              <li>Sale</li>
+            </ul>
+          <li>Guia de talles</li>
+          <li><a href="./pages/locales.html">Locales</a></li>
+          <li>Políticas de envios, cambios y devolución</li>
+        </ul>
+      </nav>
+    </main>
+    <section>
+      <br>
+      <h3>Carrusel</h3>
+      <img src="./img/carrusel.jpg" alt="Carrusel de productos">
+      <img src="./img/imagen2.jpg" alt="Segunda imagen del carrusel">
+      <img src="./img/imagen3.jpg" alt="Tercera imagen del carrusel">
+    </section>
+
+
+
+  </body>
+  <footer>  
+    <br>
+    <p>Al navegar por este sitio aceptás el uso de cookies para agilizar tu experiencia de compra.</p>
+    <button>Entendido</button>
+    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

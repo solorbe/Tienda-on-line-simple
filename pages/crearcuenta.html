@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Crear Cuenta</title>
+</head>
+<body>
+  <header>
+    <a href="../index.html">
+      <img src="../img/violeta12.png" alt="Logo de la marca">
+    </a>
+    <nav>
+      <ul>
+        <li>Buscar</li>
+        <li><a href="./login.html">Login</a></li>
+        <li>Carrito</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Crear una nueva cuenta</h2>
+    <form action="#" method="post">
+      <label for="name">Nombres y Apellido</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefono">Número de teléfono</label>
+      <input type="telefono" id="telefono" name="telefono" required>
+
+      <label for="password">Contraseña</label>
+      <input type="password" id="password" name="password" required>
+      
+      <label for="password">Validar Contraseña</label>
+      <input type="password" id="password" name="password" required>
+      <br>
+      <label for="rangoedad">Rango de edad</label>
+      <input type="radio" id="rangoedad" name="rangoedad" value="menor"> Menor de 18
+      <input type="radio" id="rangoedad" name="rangoedad" value="18-35"> 18-35
+      <input type="radio" id="rangoedad" name="rangoedad" value="36-50"> 36-50
+      <input type="radio" id="rangoedad" name="rangoedad" value="mayor"> Mayor de 50  
+      <br>
+      <input type="checkbox"  id="robot" name="robot" required>
+      <label for="robot">No soy robot</label>
+      <br>
+      <button type="submit">Crear cuenta</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Al navegar por este sitio aceptás el uso de cookies para agilizar tu experiencia de compra.</p>
+    <button>Entendido</button>
+  </footer>
+</html>
