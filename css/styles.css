@@ -5,50 +5,36 @@ box-sizing: border-box;
 font-family: "Outfit", sans-serif;
 color: #22383c;
 background-color: #fdfeff
-
 }
 
+body{
+  height: 100vh;
+}
+header {
+  height: 15vh;
+}
+
+main {
+  height: 75vh;
+}
+
+footer {
+  height: 10vh;
+}
 .navheader {
   background-color: transparent;
 } 
 
-/* header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-}
 
-header ul {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  padding-right: 20px;
-}
+/* Cambia las barras por círculos */
+/* .carousel-indicators [data-bs-target] {
+    width: 12px;       /* Ajusta el tamaño que desees */
+  /*  height: 12px;      /* Debe ser igual al ancho */
+  /*  border-radius: 50%; /* Esto crea el círculo */
+   /* border: none;      /* Opcional: quita el borde invisible de Bootstrap */
+  /*  margin: 0 5px;     /* Espaciado entre los círculos */
+/*} */
 
-
-header img {
-    width: 50%    ;
-} */
-
-/* .iniciarMenu{
-  display: flex;
-  justify-content: right;
-  align-items: right; 
-  color: white;
-  font-size: 1.2rem;
-
-} */
-
-/* nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-  padding-right: 20px;
-  background-color: transparent;
-
-}
- */
 
 
 
