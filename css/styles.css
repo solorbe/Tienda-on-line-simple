@@ -11,31 +11,70 @@ body{
   height: 100vh;
 }
 header {
-  height: 15vh;
+  height: 10vh;
+}
+.navheader{
+  background-color: transparent;
 }
 
+img{
+  object-fit: cover;
+  height: 100%;
+}
+.logo{
+  max-height: 8vh;
+  max-width:100%;
+  object-fit:contain; 
+}
+
+
 main {
-  height: 75vh;
+  height: 85vh;
 }
 
 footer {
-  height: 10vh;
+  height: 5vh;
 }
 .navheader {
   background-color: transparent;
 } 
 
+.carousel,
+.carousel-inner,
+.carousel-item{
+height:100%;
+} 
+
+.hero-img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+
+/* texto encima */
+/* .hero-caption{
+bottom:20%;
+text-align:center;
+} */
 
 /* Cambia las barras por círculos */
-/* .carousel-indicators [data-bs-target] {
-    width: 12px;       /* Ajusta el tamaño que desees */
-  /*  height: 12px;      /* Debe ser igual al ancho */
-  /*  border-radius: 50%; /* Esto crea el círculo */
-   /* border: none;      /* Opcional: quita el borde invisible de Bootstrap */
-  /*  margin: 0 5px;     /* Espaciado entre los círculos */
-/*} */
+.carousel-indicators [data-bs-target] {
+  width: 15px;       /* Ajusta el tamaño que desees */
+  height: 15px;      /* Debe ser igual al ancho */
+  border-radius: 50%; /* Esto crea el círculo */
+  border: none;      /* Opcional: quita el borde invisible de Bootstrap */
+  margin: 0 5px;     /*Espaciado entre los círculos*/
+  background-color: black;
+} 
+div.carousel-indicators {
+  /*position: absolute;
+  /*bottom: 10px; /* Ajusta la distancia desde el fondo */
+  left: 50%; 
+  transform: translateX(-50%);  
+  background-color: transparent;
 
-
+}
 
 
 @media (max-width: 1024px) and (min-width: 781px) {
