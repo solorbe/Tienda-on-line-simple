@@ -17,48 +17,39 @@ header {
   background-color: transparent;
 }
 
-img{
-  object-fit: cover;
-  height: 100%;
-}
 .logo{
   max-height: 8vh;
   max-width:100%;
-  object-fit:contain; 
+  /*object-fit:contain; /*Ajusta la imagen para que quepa completa dentro del contenedor manteniendo proporción*/
 }
 
-
 main {
-  height: 85vh;
+  height: 80vh;
 }
 
 footer {
-  height: 5vh;
-}
-.navheader {
-  background-color: transparent;
-} 
+  height: 10vh;
+display: flex;
+align-items: center;
+justify-content: center;
 
-.carousel,
-.carousel-inner,
-.carousel-item{
-height:100%;
-} 
+}
+
+.hero-slide{
+  height:80vh;
+  width:100%;
+  overflow:hidden; /*para que la imagen no sobrecalga*/
+}
 
 .hero-img{
-width:100%;
-height:100%;
-object-fit:cover;
+  width:100%;
+  height:100%;
+  object-fit:cover; /*recorta parte de la imagen para no deformarse*/
+  display:block;
+  object-position: center; /*ajusta la posición de la imagen para mostrar el centro*/
 }
 
-
-/* texto encima */
-/* .hero-caption{
-bottom:20%;
-text-align:center;
-} */
-
-/* Cambia las barras por círculos */
+/* barras por círculos */
 .carousel-indicators [data-bs-target] {
   width: 15px;       /* Ajusta el tamaño que desees */
   height: 15px;      /* Debe ser igual al ancho */
@@ -70,8 +61,8 @@ text-align:center;
 div.carousel-indicators {
   /*position: absolute;
   /*bottom: 10px; /* Ajusta la distancia desde el fondo */
-  left: 50%; 
-  transform: translateX(-50%);  
+  /* left: 50%;  */
+  /* transform: translateX(-50%);   */
   background-color: transparent;
 
 }
@@ -81,10 +72,14 @@ div.carousel-indicators {
 
 }
 
-@media (max-width: 780px) and (min-width: 376px) {
-
+@media (max-width: 780px) /*and (min-width: 376px)*/ {
+  .hero-slide{
+    height:40vh;
+  }
+  footer{
+    font-size: 12px;
+  }
 }
-
 @media (min-width: 375px) {
 
 }
