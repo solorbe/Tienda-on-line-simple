@@ -13,7 +13,7 @@ body{
 header {
   height: 10vh;
 }
-.navheader{
+.navheader {
   background-color: transparent;
 }
 
@@ -25,13 +25,15 @@ header {
 
 main {
   height: 80vh;
+  overflow-y:auto;
 }
+
 
 footer {
   height: 10vh;
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -67,7 +69,19 @@ div.carousel-indicators {
 
 }
 
+.product-img{
+height:400px;
+object-fit:cover;
+object-position: top top;}
 
+h4.card-title, p.card-text {
+  font-size: 12px;
+}
+
+button.btn-primary {
+  font-size: 15px
+}
+          
 @media (max-width: 1024px) and (min-width: 781px) {
 
 }

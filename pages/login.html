@@ -3,43 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/styles.css">
-  <title>Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> <!-- para los iconos de bootstrap -->
+
+  <!-- para obtener el font del tipo de letra outfit de google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/styles.css"> 
+
+  <title>Tienda Online</title>
 </head>
 <body>
   <header>
-    <a href="../index.html">
-      <img src="../img/violeta.png" alt="Logo de la marca">
-    </a>
-    <nav>
-      <ul>
-        <li>Buscar</li>
-        <li><a href="./login.html">Login</a></li>
-        <li>Carrito</li>
-      </ul>
-    </nav>
-  </header>
-  <body>
-    <main>
-      <h2>Iniciar sesión</h2>
-      <form action="#" method="post">
-        <label for="mail">Email</label>
-        <input type="text" id="mail" name="mail" required>
-        <br>
-        <label for="password">Contraseña</label>
-        <input type="password" id="password" name="password" required>
-        <br>
-        <button type="submit">Iniciar sesión</button>
-        <br>
-        <p>No tenes cuenta?</p>
-        <a href="../pages/crearcuenta.html">Crear una cuenta nueva
+    <nav class="navbar bg-body-tertiary px-3 navheader">
+      <div class="container-fluid d-flex align-items-center justify-content-between">
+        <!-- IZQUIERDA -->
+        <button class="btn fs-3" data-bs-toggle="offcanvas" data-bs-target="#menu">
+          <i class="bi bi-list"></i>
+        </button>
+        <!-- CENTRO -->
+        <a class="navbar-brand m-0 text-center" href="../index.html">
+          <img class="logo" src="../img/violeta.png" alt="Logo">
         </a>
-      </form>
-    </main>
-  </body>
-  <footer>
-    <p>Al navegar por este sitio aceptás el uso de cookies para agilizar tu experiencia de compra.</p>
-    <button>Entendido</button>
+        <!-- DERECHA -->
+        <div class="d-flex align-items-center gap-2 gap-lg-3 fs-5">
+          <a href="#"><i class="bi bi-search"></i></a>
+          <a href="./login.html"><i class="bi bi-person-circle"></i></a>
+          <a href="#"><i class="bi bi-bag"></i></a>
+        </div>
+      </div>
+    </nav>
+        <!-- MENU LATERAL -->
+        <div class="offcanvas offcanvas-start" id="menu">
+          <div class="offcanvas-header">
+            <h5>Menú</h5>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+        <div class="offcanvas-body">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/listaproductos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Guía de Talles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/locales.html">Locales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Políticas de envios, cambios y devolución</a>
+            </li>
+          </ul>
+        </div>
+  </header>
+  
+  <main class="container d-flex justify-content-center align-items-center" > 
+  <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+    <h2 class="text-center mb-4">Iniciar sesión</h2>
+    <form action="#" method="post" class="border p-4 rounded shadow-sm bg-light">
+      <div class="mb-3">
+        <label for="mail" class="form-label">Email</label>
+        <input type="email" id="mail" name="mail" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Contraseña</label>
+        <input type="password" id="password" name="password" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-dark w-100 mb-3">
+        Iniciar sesión
+      </button>
+      <p class="text-center mb-1">¿No tenés cuenta?</p>
+      <div class="text-center">
+        <a href="../pages/crearcuenta.html">Crear una cuenta nueva</a>
+      </div>
+    </form>
+  </div>
+  </main>
+
+  <footer>  
+    <p> &copy; 2026. Todos los derechos reservados</p>
+    <p>Para reclamos ingresá <a href="reclamos.html">acá</a>. /
+    Para el botón de arrepentimiento <a href="arrepentimiento.html">haz clic aquí</a>
+    </p>
   </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </html>
