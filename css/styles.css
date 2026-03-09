@@ -18,9 +18,9 @@ header {
 }
 
 .logo{
-  max-height: 8vh;
-  max-width:100%;
-  /*object-fit:contain; /*Ajusta la imagen para que quepa completa dentro del contenedor manteniendo proporción*/
+  max-width: 120px;
+  object-fit: contain;
+  /*Ajusta la imagen para que quepa completa dentro del contenedor manteniendo proporción*/
 }
 
 main {
@@ -81,19 +81,21 @@ h4.card-title, p.card-text {
 button.btn-primary {
   font-size: 15px
 }
-          
+
 @media (max-width: 1024px) and (min-width: 781px) {
 
 }
 
 @media (max-width: 780px) /*and (min-width: 376px)*/ {
   .hero-slide{
-    height:40vh;
+    height:80vh;
   }
   footer{
     font-size: 12px;
   }
 }
-@media (min-width: 375px) {
-
+@media (max-width: 300px) {
+  .icon-derecha{
+    display: none;
+  }
 }
