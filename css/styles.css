@@ -1,23 +1,21 @@
+@charset "UTF-8";
 * {
-/*margin: 0;*/
-padding: 0;
-box-sizing: border-box;
-font-family: "Outfit", sans-serif;
-color: #22383c;
-background-color: #fdfeff
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  color: #22383c;
+  background-color: #fdfeff;
 }
 
-body{
+body {
   height: 100vh;
 }
+
 header {
   height: 10vh;
 }
-.navheader {
-  background-color: transparent;
-}
 
-.logo{
+.logo {
   max-width: 120px;
   object-fit: contain;
   /*Ajusta la imagen para que quepa completa dentro del contenedor manteniendo proporción*/
@@ -25,77 +23,74 @@ header {
 
 main {
   height: 80vh;
-  overflow-y:auto;
+  overflow-y: auto;
 }
-
 
 footer {
   height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-.hero-slide{
-  height:80vh;
-  width:100%;
-  overflow:hidden; /*para que la imagen no sobrecalga*/
+.hero-slide {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden; /*para que la imagen no sobrecalga*/
 }
 
-.hero-img{
-  width:100%;
-  height:100%;
-  object-fit:cover; /*recorta parte de la imagen para no deformarse*/
-  display:block;
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*recorta parte de la imagen para no deformarse*/
+  display: block;
   object-position: center; /*ajusta la posición de la imagen para mostrar el centro*/
 }
 
 /* barras por círculos */
 .carousel-indicators [data-bs-target] {
-  width: 15px;       /* Ajusta el tamaño que desees */
-  height: 15px;      /* Debe ser igual al ancho */
+  width: 15px;
+  height: 15px;
   border-radius: 50%; /* Esto crea el círculo */
-  border: none;      /* Opcional: quita el borde invisible de Bootstrap */
-  margin: 0 5px;     /*Espaciado entre los círculos*/
-  background-color: black;
-} 
-div.carousel-indicators {
-  /*position: absolute;
-  /*bottom: 10px; /* Ajusta la distancia desde el fondo */
-  /* left: 50%;  */
-  /* transform: translateX(-50%);   */
-  background-color: transparent;
-
+  border: none; /* Opcional: quita el borde invisible de Bootstrap */
+  margin: 0 5px; /*Espaciado entre los círculos*/
+  background-color: #fdfeff;
 }
 
-.product-img{
-height:400px;
-object-fit:cover;
-object-position: top top;}
+div .carousel-indicators {
+  background-color: transparent; /* Fondo transparente para el contenedor del indicador */
+}
 
-h4.card-title, p.card-text {
+.product-img {
+  height: 400px;
+  object-fit: cover;
+  object-position: top top;
+}
+
+h4 .card-title {
   font-size: 12px;
 }
 
-button.btn-primary {
-  font-size: 15px
+p .card-text {
+  font-size: 12px;
 }
 
-@media (max-width: 1024px) and (min-width: 781px) {
-
+button .btn-primary {
+  font-size: 15px;
 }
 
-@media (max-width: 780px) /*and (min-width: 376px)*/ {
-  .hero-slide{
-    height:80vh;
+@media (max-width: 780px) {
+  .hero-slide {
+    height: 80vh;
   }
-  footer{
+  footer {
     font-size: 12px;
   }
 }
 @media (max-width: 300px) {
-  .icon-derecha{
+  .icon-derecha {
     display: none;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */

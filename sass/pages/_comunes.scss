@@ -1,0 +1,25 @@
+body{
+  height: 100vh;
+}
+header {
+  height: 10vh;
+}
+
+.logo{
+  max-width: 120px;
+  object-fit: contain;
+  /*Ajusta la imagen para que quepa completa dentro del contenedor manteniendo proporción*/
+}
+
+main {
+  height: 80vh;
+  overflow-y:auto;
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

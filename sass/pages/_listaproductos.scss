@@ -1,0 +1,24 @@
+.product-img{
+  height:400px;
+  object-fit:cover;
+  object-position: top top;
+}
+
+
+h4{
+  .card-title{
+      font-size: 12px;
+  }
+}
+
+p{
+  .card-text {
+  font-size: 12px;
+}
+}
+
+button{
+  .btn-primary {
+  font-size: 15px
+  }
+}

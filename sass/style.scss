@@ -1,0 +1,11 @@
+@use "base/reset";
+
+//estilos comunes a todas las paginas
+@use "pages/comunes";  
+
+@use "pages/index";
+
+@use "pages/listaproductos";
+
+@use "layout/mq-tablet";
+@use "layout/mq-mobile";
