@@ -5,4 +5,22 @@
   footer{
     font-size: 12px;
   }
+
+
+  .grid{
+    grid-template-columns: 1fr 1fr;
+
+    .columnLeft{
+      grid-column: 1;
+    }
+
+    .columnMedium{
+      grid-column: 2;
+    }
+
+    .columnRight{
+      grid-column: 1 / span 2;
+    }
+  }
+
 }

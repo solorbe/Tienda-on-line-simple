@@ -1,5 +1,20 @@
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   .icon-derecha{
     display: none;
+  }
+    .grid{
+    grid-template-columns: 1fr;
+
+    .columnLeft{
+      display: none;
+    }
+
+    .columnMedium{
+      grid-column: 1;
+    }
+
+    .columnRight{
+      grid-column: 1;
+    }
   }
 }

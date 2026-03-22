@@ -1,7 +1,7 @@
+@use "../layout/mixin" as *;
+
 .product-img{
-  height:400px;
-  object-fit:cover;
-  object-position: top top;
+  @include product-img(400px)
 }
 
 
@@ -13,12 +13,12 @@ h4{
 
 p{
   .card-text {
-  font-size: 12px;
-}
+    font-size: 12px;
+  }
 }
 
 button{
   .btn-primary {
-  font-size: 15px
+    font-size: 15px;
   }
 }

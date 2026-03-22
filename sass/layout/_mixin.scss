@@ -3,3 +3,9 @@
   width: $ancho;
   height: $alto;
 } 
+
+@mixin product-img ($height) {
+  height: $height;
+  object-fit:cover;
+  object-position: top top;
+}

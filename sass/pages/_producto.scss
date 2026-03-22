@@ -1,0 +1,34 @@
+@use "../layout/mixin" as *;
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  margin: 0px 20px;
+  .columnLeft{
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    padding: 0px 10px;
+    gap: 10px ;
+    .imagenPocket{
+        @include size(300px,270px);
+        object-fit:cover;        
+    }
+  }
+
+  .columnMedium{
+    grid-column: 2;
+    .product-img{
+      @include product-img(550px)
+    }
+
+  }
+  .columnRight{
+    grid-column: 3;
+    height: 100%;
+    text-align: start;
+    padding: 10px 10px;
+  }
+}
+
