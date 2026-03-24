@@ -5,7 +5,9 @@ listadeProductos.html
 producto.html
 
 en el footer: flex
+
 en producto.html:grid
+
 index, login y listadeProductos tienen bootstrap
 
 hay mq
