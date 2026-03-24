@@ -2,6 +2,7 @@
 
 .grid{
   display: grid;
+  height: 80vh;
   grid-template-columns: 1fr 1fr 2fr;
   margin: 0px 20px;
   .columnLeft{
@@ -11,19 +12,41 @@
     justify-content: center;
     padding: 0px 10px;
     gap: 10px ;
-    .imagenPocket{
-        @include size(300px,270px);
-        object-fit:cover;        
+    .fileLeft1{
+      grid-area: 1 / 1 / 1 / 1;
+      padding: 0px ;
+      .imagenPocket{
+        @include size(300px,260px);
+        object-fit:cover;   
+        object-position: bottom ;
+        &:hover{
+          filter: brightness(70%);
+        }
+      }
+    }
+    .fileLeft2{
+      grid-area: 2 / 1 / 2 / 1;
+      padding: 0px ;
+      .imagenPocket{
+        @include size(300px,260px);
+        object-fit:cover;   
+        &:hover{
+          filter: brightness(70%);
+        }
+      }
     }
   }
-
   .columnMedium{
     grid-column: 2;
     .product-img{
-      @include product-img(550px)
+      @include product-img(550px);
+        &:hover{
+          filter: brightness(70%);
+        }
     }
-
   }
+
+  
   .columnRight{
     grid-column: 3;
     height: 100%;
