@@ -2,6 +2,7 @@ estan realizadas para esta entrega
 index.html
 login.html
 listadeProductos.html
+producto.html
 
 en el footer: flex
 en :grid
