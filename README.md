@@ -1,15 +1,35 @@
-estan realizadas para esta entrega 
-index.html
-login.html
-listadeProductos.html
-producto.html
+# Tienda on-line de Jeans
 
-en el footer: flex
+### estan realizadas para esta entrega 
 
-en producto.html:grid
+- index.html
 
-index, login y listadeProductos tienen bootstrap
+- login.html
 
-hay mq
+- listadeProductos.html
 
-SASS usado: nesting, use en lugar de import, variables y mixin y la estructura explicada en clase
+- producto.html
+
+- guiatalles.html
+
+- locales.html
+
+### en el footer: flex
+
+### en producto.html:grid
+
+### index, login, listadeProductos, guiatalles y locales tienen bootstrap
+
+### hay mq
+
+### SASS usado
+
+- nesting
+
+- use en lugar de import
+
+- variables
+
+- mixin y
+
+- estructura explicada en clase
