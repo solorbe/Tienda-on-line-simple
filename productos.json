@@ -1,0 +1,98 @@
+[
+{
+        "id_producto": 1,
+        "descripcion": "Jean wideleg roturas distribuidas",
+        "precio": 180000,
+        "imagen": "./assets/img/jeanwidelegroturasdistribuidas.webp",
+        "DatosAdicionales": {
+            "descripcion": "Jean de pierna amplia en denim azul con roturas distribuidas a lo largo de la prenda que aportan textura. El tiro medio adaptable permite regular la altura de uso. El lavado artesanal genera variaciones únicas.",
+            "composicion": "90% algodón-10% poliester",
+            "cuidados": "Lavar con agua fría. No usar blanqueadores. No secar en secadora. Planchar a temperatura media."
+        },
+        "talles": ["XS", "S", "M", "L"]
+},
+{
+        "id_producto": 2,
+        "descripcion": "Jean cargo",
+        "precio": 110000,
+        "imagen": "./assets/img/jeanCargo.webp",
+        "DatosAdicionales": {
+            "descripcion": "",
+            "composicion": "",
+            "cuidados": ""
+        },
+        "talles": ["XS", "S", "M", "L", "XL"]
+},    
+{
+        "id_producto": 3,
+        "descripcion": "Jean carpintero",
+        "precio": 130000,
+        "imagen": "./assets/img/jeanCarpintero.webp",
+        "DatosAdicionales": {
+            "descripcion": "",
+            "composicion": "",
+            "cuidados": ""
+        },
+        "talles": ["S", "M", "L", "XL"]
+},
+{
+        "id_producto": 4,
+        "descripcion": "Jean motoquero",
+        "precio": 125000,
+        "imagen": "./assets/img/jeanMotoquero.webp",
+        "DatosAdicionales": {
+            "descripcion": "",
+            "composicion": "",
+            "cuidados": ""
+        },
+        "talles": ["XS","S", "M", "L", "XL"]
+},
+{
+        "id_producto": 5,
+        "descripcion": "Jean baggy bigotes lavado",
+        "precio": 110000,
+        "imagen": "./assets/img/jeanBaggyBigotesLavado.webp",
+        "DatosAdicionales": {
+            "descripcion": "",
+            "composicion": "",
+            "cuidados": ""
+        },
+        "talles": ["XS","S", "M", "L", "XL"]
+},
+{
+        "id_producto": 6,
+        "descripcion": "Jean clásico negro",
+        "precio": 130000,
+        "imagen": "./assets/img/jeanClasicoNegro.webp",
+        "DatosAdicionales": {
+            "descripcion": "",
+            "composicion": "",
+            "cuidados": ""
+        },
+        "talles": ["S", "L", "XL"]
+},
+{
+        "id_producto": 7,
+        "descripcion": "Jean clásico azul lavado",
+        "precio": 130000,
+        "imagen": "./assets/img/Jeanclasicoazullavado.webp",
+        "DatosAdicionales": {
+            "descripcion": "",
+            "composicion": "",
+            "cuidados": ""
+        },
+        "talles": []
+},
+{
+        "id_producto": 8,
+        "descripcion": "Jean wideleg desgastado",
+        "precio": 130000,
+        "imagen": "./assets/img/jeanwidelegdesgastado.webp",
+        "DatosAdicionales": {
+            "descripcion": "",
+            "composicion": "",
+            "cuidados": ""
+        },
+        "talles": ["XS","S", "M", "L", "XL"]
+}
+]   

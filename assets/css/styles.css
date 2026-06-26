@@ -1,0 +1,81 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  color: #22383c;
+ 
+}
+
+body {
+  height: 100vh;
+  background-color: #fdfeff;
+}
+
+header {
+  height: 10vh;
+}
+
+.logo {
+  max-width: 120px;
+  object-fit: contain;
+  /*Ajusta la imagen para que quepa completa dentro del contenedor manteniendo proporción*/
+}
+
+main {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img-top {
+  height: 350px;
+  object-fit: cover;
+  object-position: top;
+}
+
+h5.card-title {
+  font-size: 18px;
+  text-align: center;
+}
+
+p.card-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+button.btn.btn-secondary {
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+}
+
+.swal2-title , .swal2-radio-label {
+    font-size: 20px !important;
+}
+
+.swal2-confirm, .swal2-deny, .swal2-cancel {
+  font-size: 15px !important;
+  background-color: #6c757d !important;
+  color: #fff !important;
+}
+
+/* @media (max-width: 780px) {
+  footer {
+    font-size: 12px;
+  }
+} 
+
+@media (max-width: 400px) {
+  .icon-derecha {
+    display: none;
+  } 
+
+} */
+
